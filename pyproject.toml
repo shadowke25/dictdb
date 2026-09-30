@@ -1,0 +1,17 @@
+[project]
+name = "dictdb"
+version = "1.5.0"
+description = "渗透字典管理工具：命令行 + 本地 HTTP API（Python 标准库零依赖）"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[project.scripts]
+dictdb = "dictdb.cli:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["dictdb", "dictdb.core"]

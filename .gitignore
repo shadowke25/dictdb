@@ -1,0 +1,20 @@
+# uv / python
+.venv/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# 工具会话产物
+.mimosa/
+.zcode/
+
+# 运行时数据（字典库本体，按需调整是否入库）
+store/
+export/
+dictdb.db
+dictdb.db-wal
+dictdb.db-shm
+last_search.json
+
+# git 演示仓库（测试用，内含嵌套 .git）
+samples/git/
